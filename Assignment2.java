@@ -30,6 +30,14 @@ public class Assignment2 {
                 return false;
             }
         }
+        //Time Complexity
+        //total 3 for loops
+        //1st for loop iterate through 26 times
+        //2nd for loop iterate throught n(length of a string) times
+        //3rd in worst case it iterate through 26 times
+        //so O(N)=O(26)+O(n)+O(26) where N is the max length
+        //Space Complexity
+        //O(26)
 
 
         return true;
